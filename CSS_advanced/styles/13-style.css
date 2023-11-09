@@ -37,20 +37,24 @@
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
   }
-  a {
+  a[href]:not([href=""]) {
     color: var(--text-color);
     text-decoration: none;
-  }
-  a[href]:not([href=""]) {
     font-style: italic;
   }
   a[href]:not([href=""]):visited {
+    color: var(--text-color);
+    text-decoration: none;
     font-style: italic;
   }
   a[href]:not([href=""]):hover {
+    color: var(--text-color);
+    text-decoration: none;
     text-decoration: underline;
   }
   a[href]:not([href=""]):active {
+    color: var(--text-color);
+    text-decoration: none;
     background-color: var(--color-light-grey);
   }
   .visually-hidden {
