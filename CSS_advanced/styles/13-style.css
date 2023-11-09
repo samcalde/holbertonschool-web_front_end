@@ -41,6 +41,18 @@
     color: var(--text-color);
     text-decoration: none;
   }
+  a[href]:not([href=""]) {
+    font-style: italic;
+  }
+  a[href]:not([href=""]):visited {
+    font-style: italic;
+  }
+  a[href]:not([href=""]):hover {
+    text-decoration: underline;
+  }
+  a[href]:not([href=""]):active {
+    background-color: var(--color-light-grey);
+  }
   .visually-hidden {
     display: none;
   }
