@@ -315,7 +315,7 @@
   
   .nav-link {
     display: block;
-    padding: var(--root-element)/2 var(--root-element);
+    padding: 0.5rem 1rem;
   }
   
   .nav-link:hover {
