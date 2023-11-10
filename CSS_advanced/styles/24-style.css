@@ -261,8 +261,8 @@
     color: var(--color-primary);
   }
 
-  .card-services card-title {
-    margin: 0;
+  .card-services .card-title {
+    margin: none;
   }
 
   .card-services a {
