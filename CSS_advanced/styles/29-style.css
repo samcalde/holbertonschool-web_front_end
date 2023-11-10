@@ -402,7 +402,7 @@
     list-style-type: none;
   }
 
-  .nav-link::before {
+  .nav .nav-link {
     content: '';
     position: absolute;
     top: 0;
@@ -412,7 +412,7 @@
     height: 20%;
   }
   
-  .nav-item:hover .nav-link::before {
+  .nav .nav-item:hover .nav-link {
     background-color: var(--color-primary);
     width: 100%;
   }
