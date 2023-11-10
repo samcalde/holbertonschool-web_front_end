@@ -335,7 +335,7 @@
   }
 
   .row:after {
-    content: '';
+    content: none;
     display: table;
     clear: both;
   }
