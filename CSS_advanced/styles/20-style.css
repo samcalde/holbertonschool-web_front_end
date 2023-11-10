@@ -334,7 +334,7 @@
     list-style: none;
   }
 
-  .row:after {
+  .row::after{
     content: none;
     display: table;
     clear: both;
